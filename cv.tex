@@ -1,0 +1,99 @@
+%!TEX program = xelatex
+\documentclass[11pt,a4paper,nolmodern]{moderncv}
+\usepackage[noindent,UTF8]{ctex}
+\usepackage{info}
+\usepackage{color}
+\definecolor{linkcolor}{RGB}{219, 48, 122}
+
+\title{全栈攻城狮@中国}
+
+\begin{document}
+
+\hyphenpenalty=10000
+\maketitle
+
+\section{学习经历}
+\tlcventry{2013}{2016}{研究生}{电子科技大学}{网络安全与信息系统安全}{}{
+\begin{itemize}
+  \item \underline{保送}
+  \item 2015年，华为软件精英挑战赛（德州扑克AI）西南赛区32强
+  \item 2013/2014年，分别获研究生学业奖学金一/三等
+  \item 2013年，阿里云OS HTML5应用开发大赛三等奖
+\end{itemize}}
+\tlcventry{2010}{2013}{本科}{电子科技大学}{光电工程与光通信}{}{
+\begin{itemize}
+  \item \underline{专业第一}转专业
+  \item 2011/2012年，分别获人民二/三等奖学金
+  \item 2011年，阿里巴巴程序设计暨西南邀请赛三等奖
+\end{itemize}}
+\tlcventry{2009}{2010}{本科}{电子科技大学}{生物技术}{}{
+\begin{itemize}
+  \item 2010年，国家励志奖学金
+  \item 2010年，进校ACM集训队、校ACM程序设计暨西南邀请赛二等奖
+\end{itemize}}
+
+\section{个人能力}
+\subsection{基础技能}
+\cvlistitem{\textbf{英语}：CET4优秀(581)，CET6通过(454)，习惯阅读英文文档}
+\cvlistitem{\textbf{编程语言}：JavaScript > C > Python > Java > C++ > Bash > Others}
+\cvlistitem{\textbf{后端}：主要使用NodeJS + Express + MongoDB(Mongoose)，熟练RESTful最佳实践，会基本的性能优化，有过 Flask 使用经历}
+\cvlistitem{\textbf{前端}：有几个SPA作品，有jQuery、AngularJS、SemanticUI、D3等使用经验}
+\cvlistitem{\textbf{客户端}：可写简单Android应用，对WebAPP/Hybrid有一定了解，用过Java的Swing框架，本科毕设用Qt完成了原型}
+\cvlistitem{\textbf{安全}：对社工、SQL 注入、XSS、CSRF 等基本常见安全问题较了解，实战过几个网站，帮助过一家创业公司做过安全测试（找到了XSS、越权等问题）}
+\cvlistitem{\textbf{运维}：五年Linux使用，熟练使用各种常用命令，习惯在无X环境下工作，重构教研室 Workflow (效率有本质上的提升)，了解部分虚拟化技术及云平台（Xen、KVM、QEMU、Libvirt、Ovirt、Docker等）并参与过相关工作}
+\cvlistitem{\textbf{嵌入式}：折腾过单片机、ARM 等，做过一个控制类的电子设计竞赛并获奖（类似\textcolor{linkcolor}{\href{http://v.youku.com/v_show/id_XMjg3MzQ1ODY4.html}{这个}}）}
+\subsection{身体素质}
+\cvlistitem{2013夏，35度\textsuperscript{plus}14天独骑2463km，成都—>南京(长江线) \textcolor{linkcolor}{\href{http://t.cn/RZITABs}{链接√}}}
+\cvlistitem{2015重庆国际马拉松4h23min完赛 \textcolor{linkcolor}{\href{http://t.cn/RLP0cCm}{链接√}}}
+\subsection{开源参与}
+\cvlistitem{给RedHat的Spice项目提交过几个小Patch，3个ACK，\textcolor{linkcolor}{\href{http://t.cn/RLP0V8r}{链接√}}}
+\cvlistitem{\textcolor{linkcolor}{\href{https://github.com/int64ago}{Github}}及各开源社区较活跃}
+
+\section{实习经历}
+\tldatelabelcventry{2012}{2012春}{宜高美信息服务(成都)有限公司(4月) / 联想成都研究中心(5月)}{}{}{}{
+  \begin{itemize}
+    \item 服务器日志检测、分析、统计 / 服务器并发压力测试
+  \end{itemize}
+}
+
+\section{项目经历}
+\tlcventry{2013}{0}{个人作品}{}{}{}{
+\begin{itemize}
+ \item SECloud个人安全网盘
+ （\textcolor{linkcolor}{\href{http://secloud.int64ago.org/}{链接}}、\textcolor{linkcolor}{\href{https://github.com/int64ago/secloud}{源码}}）
+ \item 静态JS/CSS公共CDN
+ （\textcolor{linkcolor}{\href{http://cdn.int64ago.org/}{链接}}、\textcolor{linkcolor}{\href{https://github.com/int64ago/cdn}{源码}}）
+ \item Anti Riverside 学校论坛Chrome增强插件
+ （\textcolor{linkcolor}{\href{https://chrome.google.com/webstore/detail/anti-riverside/ibkmcelpnaphiomdbchfabhlijlgedbi}{链接}}、\textcolor{linkcolor}{\href{https://github.com/int64ago/AntiRiverside}{源码}}）
+ \item Get Link! 图片外链
+ （\textcolor{linkcolor}{\href{http://getlink.int64ago.org/}{链接}}、\textcolor{linkcolor}{\href{https://github.com/int64ago/getlink}{源码}}）
+\end{itemize}}
+\tlcventry{2014}{2015}{安全网关}{在中标麒麟上构建出有接入授权、权限控制、入侵检测防御、VPN等功能的网关}{}{}{
+\begin{itemize}
+ \item 组长
+ \item 整体方案设计、分工、集成、测试，对组员代码 Code Review
+ \item iptables、Snort、IPSec-VPN配置及API封装
+\end{itemize}}
+\tlcventry{2014}{2015}{安全桌面云}{基于KVM-Ovirt，为某企业定制安全私有桌面云}{}{}{
+\begin{itemize}
+ \item 主要开发人员
+ \item 接入客户端开发，涉及USB-KEY认证、与服务端RESTful认证交互等
+ \item Spice-Gtk定制优化，解决公网下连接问题及中文环境下文件拖拽问题
+\end{itemize}}
+\tlcventry{2013}{2014}{三零卫士}{基于KVM-Ovirt，与中电30所联合开发安全私有云管理平台}{}{}{
+\begin{itemize}
+ \item 主要开发人员
+ \item KVM驱动层特权指令抓取，从虚拟机到云管理端通信通道构建（监控及控制虚拟机内部）
+\end{itemize}}
+\tlcventry{2012}{2013}{安全检查工具}{用于Windows系统电子取证和安全评测}{}{}{
+\begin{itemize}
+ \item 开发人员之一
+ \item 负责编码识别转换及模式匹配模块，xpdf移植，WinPE定制集成
+\end{itemize}}
+
+\section{其它}
+\cvlistitem{契约精神、技术洁癖、中度强迫症患者、Google重度用户、善烹饪、不善烟酒}
+\cvlistitem{此简历基于\textcolor{linkcolor}{\href{https://www.ctan.org/pkg/moderncv}{ModernCV}}，通过\XeLaTeX{}排版}
+%\cvlistitem{简历电子版地址：\textcolor{linkcolor}{\href{http://cv.int64ago.org/hw}{cv.int64ago.org/hw}}}
+\end{document}
+
